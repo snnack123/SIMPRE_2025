@@ -60,7 +60,7 @@ const RecordForm = ({ entry = null, onSubmit }) => {
             onClick={() => onSubmit(data)}
             className="text-white bg-green-500 hover:bg-green-600 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
           >
-            {isEditing ? "Update" : "Create"}
+            {entry?._id ? "Update" : "Create"}
           </button>
         </div>
       </div>
