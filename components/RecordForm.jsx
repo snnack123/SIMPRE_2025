@@ -21,7 +21,6 @@ const RecordForm = ({ entry = null, onSubmit }) => {
         <div className="text-center font-bold text-xl">
           {entry?._id ? "Update" : "Create new"} Record
         </div>
-        <h1 className="font-bold text-center text-lg">Create new Record</h1>
         <div>
           <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
             Name
